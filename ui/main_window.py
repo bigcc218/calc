@@ -6,7 +6,7 @@ from logic.calculator import Calculator
 class MainWindow(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("精致计算器")
+        self.title("神经计算器")
         self.resizable(False, False)
         self.configure(bg="#f5f6fa")
         self.calculator = Calculator()
