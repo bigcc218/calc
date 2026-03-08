@@ -14,5 +14,5 @@
 7.执行`.venv\Scripts\deactivete.bat` <br>
 
 # 注意事项！！！
-**请准备python环境！！！！！！**
+**请准备python环境！！！！！！** <br>
 **如果你不知道要不要用虚拟环境，请使用！**
