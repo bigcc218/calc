@@ -8,17 +8,22 @@ python.exe main.py
 # 如何打包
 考虑到pyinstaller打包较大，所以使用虚拟环境！（不用虚拟环境忽略1、2、7步）<br>
 1.在cmd中执行```bash
-python.exe -m venv .venv```准备虚拟环境 <br>
+python.exe -m venv .venv
+```准备虚拟环境 <br>
 2.执行```bash
-.venv\Scripts\activete.bat``` <br>
+.venv\Scripts\activete.bat
+``` <br>
 3.执行```bash
-pip install pyinstaller``` <br>
+pip install pyinstaller
+``` <br>
 4.到项目更目录 <br>
 5.执行```bash
-pyinstaller --noconfirm --onefile --windowed  "main.py"``` <br>
+pyinstaller --noconfirm --onefile --windowed  "main.py"
+``` <br>
 6.等待打包完成 <br>
 7.执行```bash
-.venv\Scripts\deactivete.bat``` <br>
+.venv\Scripts\deactivete.bat
+``` <br>
 
 # 注意事项！！！
 **请准备python环境！！！！！！** <br>
